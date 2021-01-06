@@ -1,3 +1,13 @@
+The features of my Portfolio page:
+-Responsive layout and images for all screen and window sizes using rows, columns, and classes from bootstrap
+-Properly working navbar, including a responsive layout for all screen sizes
+-Semantic HTML including nav, div, img, form, head, body, etc
+-Each page has personalized wording and some extra style changes
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
