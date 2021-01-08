@@ -4,6 +4,10 @@ The features of my Portfolio page:
 -Semantic HTML including nav, div, img, form, head, body, etc
 -Each page has personalized wording and some extra style changes
 
+https://ashley-ag.github.io/2-Responsive-Portfolio/index.html 
+
+
+<img src="screenshot.png" alt="aboutme">
 
 
 ----------------------------------------------------------------------------------------------------------------------------
