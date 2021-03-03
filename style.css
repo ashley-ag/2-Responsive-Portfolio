@@ -1,9 +1,94 @@
 img {
     max-width: 350px;
     max-height: 350px;
+    padding: 30%;
+}
+
+h1 {
+    font-weight: bolder;
+    color: #040434;
+    padding: 30px;
+    text-align: center;
+}
+
+.about-me {
+    align-content: center;
 }
 
 div {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.contact {
+    font-size: 700%;
+    text-align: center;
+    color: #abbcc9;
+    padding: 20%;
+}
+
+.contact:hover {
+    color: #3c3c4c;
+}
+
+body {
+    background-image: url('assets/Images/midnightblue.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+button {
+    background-color: #abbcc9;
+    color: #040434;
+}
+
+button:hover {
+    background-color: #3c3c4c;
+    color: #abbcc9;
+}
+
+.nav {
+    background-color: #abbcc9;
+}
+
+.bio {
+    padding: 30px;
+    color: #abbcc9;
+    border-radius: 25%;
+    text-align: center;
+    align-content: center;
+}
+
+.buttons {
+padding: 5%;
+}
+
+li {
+    text-align: left;
+}
+
+.card {
+    background-color: #abbcc9;
+    color: #040434;
+    max-height: 50px;
+}
+
+.btn {
+    background-color: #3c3c4c;
+    color: #abbcc9;
+    border-color: #3c3c4c;
+}
+
+.btn:hover {
+    background-color: #040434;
+    color: #abbcc9;
+    border-color: #abbcc9;
+}
+
+.img-thumbnail {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    padding: 20px;
 }
