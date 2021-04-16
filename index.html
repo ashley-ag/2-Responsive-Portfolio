@@ -1,75 +1,113 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>About Me: Ashley</title>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb nav">
-      <li class="breadcrumb-item active" aria-current="page"><h1>Ashley Griffitts - Full Stack Web Developer</h1></li>
-    </ol>
-  </nav>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="row">
-          <div class="col-3 about-me">
-            <img src="assets/Images/profilecropped.jpg" alt="aboutme" class="img-thumbnail">
-          </div>
-          <div class="col-6">
-           <p class="bio">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-           <div class="buttons"> 
-            <button class="btn btn-lg button" href="#" type="button">See My Work</button>
-            <button class="btn btn-lg button" type="button" href="assets/images/david.jpg" download="w3logo">Download My Resume</button>
-           </div>
-          </div>
-        <div class="col-3">
-          <a class="fab fa-linkedin-in contact" href="#"></a>
-          <a class="fab fa-github contact" href="#"></a>
+      <div class="row header">
+        <div class="col-6">
+          <h1>Hi, my name is Ashley.</h1>
+          <h2>Full Stack Web Developer</h2>
+          <br />
+          <button type="button" class="btn btn-light">
+            Download my resume!
+          </button>
+          <button type="button" class="btn btn-light">See my work!</button>
+        </div>
+        <div class="col-6">
+          <img class="selfimg" src="/Assets/Images/meagain3.png" />
+        </div>
+      </div>
+      <div class="row aboutmerow">
+        <div class="col-12 aboutme">
+          <h2>About Me:</h2>
+          <p>
+            Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
         </div>
       </div>
       <div class="row">
-        <h1 class="col-12">Professional Experience</h1>
-        <div class="col-6 bio">
-          <p>
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-         </p>
+        <div class="col-6 icons">
+          <a
+            class="fab fa-github contact"
+            href="https://github.com/ashley-ag"
+          ></a>
+          <br />
+          <a class="fab fa-linkedin-in contact" href="#"></a>
         </div>
-        <div class="col-6 bio">
-        <h2>Qualifications and Proficencies:</h2>
-        <br>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>Node.js</li>
-          <li>Green Belt in Lean 6 Sigma</li>
-        </ul> 
+        <div class="col-6 skills">
+          <h2>Special Skills and Proficiencies:</h2>
+          <ul>
+            <li>HMTL5</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Program/Project Management</li>
+            <li>Express</li>
+            <li>Node</li>
+            <li>SQL</li>
+            <li>MVC</li>
+            <li>OOP</li>
+            <li>Bootstrap</li>
+            <li>APIs (Third party, web, and server-side)</li>
+          </ul>
         </div>
-        <div class="row">
-      <div class="col-4">
-          <img src="alexis.jpg" alt="aboutme" class="img-thumbnail">
       </div>
-      <div class="col-4">
-          <img src="david.jpg" alt="aboutme" class="img-thumbnail">
+      <div class="row">
+        <div class="col-12">
+          <hr />
+          <h2 class="aboutmerow">A few projects I have contributed to:</h2>
+          <p class="aboutmerow">
+            To see all of my work, visit my Github page linked above.
+          </p>
+        </div>
+        <div class="col-4">
+          <img class="projectimg" src="/Assets/Images/lyricity.png" />
+          <h3 class="aboutmerow">
+            <a href="https://mlcohan.github.io/team9/">Lyricity</a>
+          </h3>
+        </div>
+        <div class="col-4">
+          <img class="projectimg" src="/Assets/Images/password.PNG" />
+          <h3 class="aboutmerow">
+            <a href="https://ashley-ag.github.io/03-Password-Generator/"
+              >Password Generator</a
+            >
+          </h3>
+        </div>
+        <div class="col-4">
+          <img class="projectimg" src="/Assets/Images/weather.png" />
+          <h3 class="aboutmerow">
+            <a href="https://ashley-ag.github.io/WeatherNearYou/"
+              >Weather Application</a
+            >
+          </h3>
+        </div>
       </div>
-      <div class="col-4">
-          <img src="moira.jpg" alt="aboutme" class="img-thumbnail">
-      </div>
-  </div>
-
- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
- <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
-
-</body>
+    </div>
+  </body>
 </html>
